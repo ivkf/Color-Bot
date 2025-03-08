@@ -1,9 +1,13 @@
+// **************//
+// Code By R </> //
+// **************//
+
 const { Client, GatewayIntentBits, REST, Routes, PermissionFlagsBits, Colors } = require('discord.js');
 require('dotenv').config();
 
-const DISCORD_TOKEN = 'MTM0NzcxNjU2MjA2ODU3NDIyOA.GyfzpP.h7EXOjX2UYMdNUrEAJisaaTXVGkgnJyXzetrWM';
-const CLIENT_ID = '1347716562068574228';
-const GUILD_ID = '1343296879244607643';
+const DISCORD_TOKEN = ''; // توكن بوتك
+const CLIENT_ID = ''; // id البوت
+const GUILD_ID = ''; // id السيرفر
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers] });
 
